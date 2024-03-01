@@ -143,7 +143,7 @@ nav a:hover,
           right: 0px;
           top: 0px;
           margin-top: 7%;
-          margin-right: 95px;
+          margin-right: 5%;
       }
 
       /* Button Background */
@@ -197,7 +197,7 @@ nav a:hover,
   width: 139px;
   height: 18px;
   left: 81px;
-  top: 20px;
+  top: 15px;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
@@ -282,7 +282,7 @@ nav a:hover,
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
   gap: 20px; /* Adjust the gap between columns if needed */
-
+  margin-right: 5px; /* Adjust the margin as needed */
 }
 
 /* Style for each item in the 2x2 layout */
@@ -299,7 +299,7 @@ nav a:hover,
   width: 139px;
   height: 18px;
   left: 60px;
-  top: 120px;
+  top: 130px;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
@@ -309,7 +309,9 @@ nav a:hover,
   color: #AEAEAA;
 }
 
-.Email{
+.Email,
+.Facebook
+{
   display: flex;
   padding: 10px 15px; /* Adjust padding as needed */
   background-color: transparent; /* Background color */
@@ -319,75 +321,66 @@ nav a:hover,
   border-radius: 60px; /* Rounded corners */
   cursor: pointer;
   font-weight: 700;
-  margin-top: 15%;
+  margin-top: 31%;
   width: 100px; /* Set your desired width */
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  justify-content: center;
-}
-  
-.Facebook{
-  display: flex;
-  padding: 10px 15px; /* Adjust padding as needed */
-  background-color: transparent; /* Background color */
-  color: #548BAB;
-  font-size: 14px; /* Adjust font size as needed */
-  border: 1px solid #548BAB;
-  border-radius: 60px; /* Rounded corners */
-  cursor: pointer;
-  font-weight: 700;
-  margin-top: 15%;
-  width: 100px; /* Set your desired width */
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
   justify-content: center;
 }
 
+.Email {
+  margin-left: auto;
+  margin-right: 1px;
+}
+
+.Facebook {
+  margin-left: 1px;
+  margin-right: auto;
+}
+
+.Twitter,
+.LinkedIn{
+  display: flex;
+  padding: 10px 15px; /* Adjust padding as needed */
+  background-color: transparent; /* Background color */
+  color: #548BAB;
+  font-size: 14px; /* Adjust font size as needed */
+  border: 1px solid #548BAB;
+  border-radius: 60px; /* Rounded corners */
+  cursor: pointer;
+  font-weight: 700;
+  margin-top: 1%;
+  width: 100px; /* Set your desired width */
+  text-align: center;
+  justify-content: center;
+
+}
 .Twitter{
-  display: flex;
-  padding: 10px 15px; /* Adjust padding as needed */
-  background-color: transparent; /* Background color */
-  color: #548BAB;
-  font-size: 14px; /* Adjust font size as needed */
-  border: 1px solid #548BAB;
-  border-radius: 60px; /* Rounded corners */
-  cursor: pointer;
-  font-weight: 700;
-  margin-top: 15%;
-  width: 100px; /* Set your desired width */
   margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  justify-content: center;
+  margin-right: 1px;
 }
 
-.LinkedIn {
-  display: flex;
-  padding: 10px 15px; /* Adjust padding as needed */
-  background-color: transparent; /* Background color */
-  color: #548BAB;
-  font-size: 14px; /* Adjust font size as needed */
-  border: 1px solid #548BAB;
-  border-radius: 60px; /* Rounded corners */
-  cursor: pointer;
-  font-weight: 700;
-  margin-top: 15%;
-  width: 100px; /* Set your desired width */
-  margin-left: auto;
+.LinkedIn{
+  margin-left: 1px;
   margin-right: auto;
-  text-align: center;
-  justify-content: center;}
+}
 
+.Title3{
+  color:#548BAB ;
+  width: 620px;
+height: 36px;
+top: 1268px;
+left: 84px;
+font-family: Montserrat sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0px;
+text-align: left;
+margin-left: 186px;
 
+}
 
-
-
-
-
- 
- /* ***********************************************************************************  */
+/* ***********************************************************************************  */
 
  .MedicalRegistrars {
  
@@ -397,7 +390,18 @@ nav a:hover,
   width: 1009px;
   height: 100%;
 }
+.back-to-results{
+  width: 108px;
+height: 21px;
+font-family: Montserrat sans-serif;
+font-size: 14px;
+font-weight: 600;
+line-height: 21px;
+letter-spacing: 0px;
+text-align: left;
+color: #548BAB;
 
+}
 .arrow-left {
   border: solid #548BAB; /* Change border color to #548BAB */
   border-width: 0 3px 3px 0;
@@ -461,28 +465,45 @@ color: #000000;
 .MedicalReg{
   margin-top: 15%;
 }
+
+
  /* ***********************************************************************************  */
 
-.Title3{
-font-family: Montserrat sans-serif;
-font-size: 24px;
-font-weight: 700;
-line-height: 36px;
-letter-spacing: 0px;
-text-align: left;
-width: 620px;
-height: 36px;
-top: 1268px;
-left: 84px;
-color: #548BAB;
+
+
+
+/* Style for the container */
+.container {
+  display: flex;
+  align-items: center;
+  margin-left: 186px;
 }
 
-.Consult {
-  margin-top: 50px; 
-  margin-left: 10%;
-  margin-right: auto;
-  width: 1009px;
-  height: 100%;
+/* Style for the Mark Steyn image */
+.container img {
+  width: 258.03px; /* Adjust the width as needed */
+  height: 292px; /* Adjust the height as needed */
+  margin-right: 10px; /* Add some spacing between images */
+}
+
+/* Style for the threeimg container */
+.threeimg {
+  text-align: left;
+}
+
+/* Style for each image in threeimg */
+.threeimg img {
+  display: block;
+  margin: 10px 0; /* Add some spacing between images */
+  width: 25px; /* Adjust the width as needed */
+  height: auto;
+}
+
+
+/* Additional styles for the details section */
+.ConsultDetails {
+  margin-top: 20px; /* Add margin to separate the sections */
+  margin-left: 186px;
 }
 
 .Title4{
@@ -515,12 +536,17 @@ left: 82px;
 opacity: 0.7px;
 }
 
+
+
 /* ************************************************************************************* */
+
+
+
 
 /* Invisible Container */
 .containerNapud {
   display: flex;
-  margin-left: 50px; 
+  margin-left: 148px; 
   white-space: nowrap;
   overflow: hidden;
 }
@@ -562,7 +588,9 @@ opacity: 0.7px;
 }
 
 .jobsLatest{
-  margin-left: 50px;
+  margin-left: 186px;
+  font-weight: 900;
+  font-family: Montserrat sans-serif;
 }
 
 
@@ -603,7 +631,7 @@ opacity: 0.7px;
 }
 
 .postedTitle{
-  font-family: "Montserrat";
+  font-family: Montserrat sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 26px;
@@ -637,7 +665,12 @@ ul {
   color: #000000;
 }
 
+
+
 /* ************************************************************************************* */
+
+
+
 /* OrangeSMile */
 .square3 {
   width: 100%;
@@ -693,7 +726,9 @@ ul {
   background-color: #FFFFFF;
 }
 
+
 /****************************************************************************************/
+
 
 .footer {
   background-color: #FFFFFF;
@@ -820,6 +855,7 @@ ul {
 .bott img {
   margin-top: 20px;
 }
+
 
 
 /* **************************************** */
